@@ -1,0 +1,34 @@
+* {
+	scroll-behavior: smooth;
+
+}
+/* here's how to position relative, which means you can change the left, top, bottom, right values to position elements. works best when positioned within a relative parent container. otherwise, is removed from the document flow!!! which is mostly bad! */
+.relative {
+  position: relative;
+  border: 3px solid blue;
+}
+
+/* here's how to position absolute, which means you can change the left, top, bottom, right values to position elements. works best when positioned within a relative parent container. otherwise, is removed from the document flow!!! which is mostly bad! */
+.absolute {
+  position: absolute;
+  right: 20px;
+  width: 600px;
+  height: 600px;
+  border: 3px solid red;
+}
+
+
+
+
+div.fixed {
+	position: fixed;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	margin-top: 20%;
+}
+
+
+
